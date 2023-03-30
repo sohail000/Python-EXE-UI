@@ -3,7 +3,7 @@ import os
 import subprocess
 import tkinter as tk
 from tkinter import filedialog, ttk
-
+##
 # Function to run the executable on the selected file
 def run_exe(exe_file, file_name):
     try:

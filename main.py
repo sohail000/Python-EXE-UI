@@ -68,7 +68,7 @@ def generate_output():
 
 # Create the main window
 root = tk.Tk()
-root.title("AI Coach Tool")
+root.title("Exe UI")
 
 # Create the executable file selection widgets
 exe_file_label = tk.Label(root, text="EXE:")
@@ -103,3 +103,4 @@ error_widget.grid(row=6, column=0, columnspan=3, padx=10, pady=10)
 
 # Run the main loop
 root.mainloop()
+#end
